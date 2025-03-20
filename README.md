@@ -28,7 +28,7 @@ The dashboard explores:
 ### **2. Demographic Analysis & Ratings**
 - Breakdown of **users by age group and gender**.
 - Ratings by **profession and occupation**.
-- **Key visuals:** Matrix Table, Clustered Column Chart, and a Map.
+- **Key visuals:** Matrix Table, Clustered Column Chart, Map, and Slicers.
 ![Demographic Analysis](images/demographic_analysis.jpg)
 
 ### **3. Movie Ratings & Genre Insights**
