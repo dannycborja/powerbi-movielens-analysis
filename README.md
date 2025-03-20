@@ -75,17 +75,16 @@ The dashboard explores:
 ### **Data Cleaning & Transformation**
 - **Removed redundant columns** for efficiency.
 - **Ensured first row as headers** in all datasets.
-- **Created calculated columns:**
+- **Created manual groups:**
   - **Age Grouping** (`18-24, 25-34, etc.`)
   - **Decades Grouping** (`1930s, 1940s, etc.`)
   - **Genre Grouping** (`Action-Based, Adventure-Based, etc.`)
 - **Ensured no circular relationships** in Power BI data model.
 
-### **DAX Measures & Calculations**
+### **DAX Measures**
 - `COUNTROWS()` → Total **users & movies**
-- `AVERAGE()` → **Average movie rating**
-- `GROUPBY()` → **Genre & decade aggregation**
-- **Calculated Columns** → Used for **age groups, decade categorization**.
+- `AVERAGEX()` → **Average movie rating**
+- `DISTINCTCOUNT()` → **Genre aggregation**
 
 ---
 
