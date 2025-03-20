@@ -42,3 +42,32 @@ The dashboard explores:
 ![Raw Data Table](images/raw_data_table.jpg)
 
 ---
+
+## **Dataset Used**
+### **1. rating.csv** (User ratings for movies)
+| Column Name | Description |
+|-------------|------------|
+| `user_id` | Unique ID assigned to each user |
+| `movie_id` | Unique ID assigned to each movie |
+| `rating` | Rating given by the user (scale 1-5) |
+| `timestamp` | Time of rating |
+
+### **2. movie.csv** (Movie details)
+| Column Name | Description |
+|-------------|------------|
+| `movie_id` | Unique ID assigned to each movie |
+| `movie_name` | Movie title |
+| `genre` | Genre(s) of the movie (multiple genres separated by pipe `|`) |
+| `year` | Release year of the movie |
+
+### **3. user.csv** (User demographic data)
+| Column Name | Description |
+|-------------|------------|
+| `user_id` | Unique ID assigned to each user |
+| `age` | Age of the user |
+| `gender` | Gender (`M` for Male, `F` for Female) |
+| `occupation` | User's occupation |
+| `zipcode` | Zip code of user's residence |
+
+---
+
