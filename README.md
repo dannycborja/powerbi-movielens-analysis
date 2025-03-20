@@ -22,19 +22,19 @@ The dashboard explores:
 
 ### **1. Overview Dashboard**
 - Shows total **movies released, genres, and users**.
-- **Key visuals:** KPI Cards, Gauge Chart, Bar Charts, and Slicers.
+- **Key visuals:** KPI Cards, Gauge Chart, Donut Chart, Area Chart, Stacked Bar Chart, and a Slicer.
 ![Overview Dashboard](images/overview_dashboard.jpg)
 
 ### **2. Demographic Analysis & Ratings**
 - Breakdown of **users by age group and gender**.
 - Ratings by **profession and occupation**.
-- **Key visuals:** Matrix Table, Clustered Column Chart.
+- **Key visuals:** Matrix Table, Clustered Column Chart, and a Map.
 ![Demographic Analysis](images/demographic_analysis.jpg)
 
 ### **3. Movie Ratings & Genre Insights**
 - **Top-rated movies & genres**.
 - Average movie ratings **by decade**.
-- **Key visuals:** Treemap, Bar Chart, Scatterplot.
+- **Key visuals:** Treemap, Clustered Bar Chart, Scatterplot, and Slicers.
 ![Movie Ratings & Genre Insights](images/movie_ratings_genre_insights.jpg)
 
 ### **4. Raw Data Table (User, Movie, Ratings)**
