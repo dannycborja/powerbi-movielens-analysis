@@ -71,3 +71,25 @@ The dashboard explores:
 
 ---
 
+## **Data Preparation & Modeling**
+### **Data Cleaning & Transformation**
+- **Removed redundant columns** for efficiency.
+- **Ensured first row as headers** in all datasets.
+- **Created calculated columns:**
+  - **Age Grouping** (`18-24, 25-34, etc.`)
+  - **Decades Grouping** (`1930s, 1940s, etc.`)
+  - **Genre Grouping** (`Action-Based, Adventure-Based, etc.`)
+- **Ensured no circular relationships** in Power BI data model.
+
+### **DAX Measures & Calculations**
+- `COUNTROWS()` → Total **users & movies**
+- `AVERAGE()` → **Average movie rating**
+- `GROUPBY()` → **Genre & decade aggregation**
+- **Calculated Columns** → Used for **age groups, decade categorization**.
+
+---
+
+## **How to View the Report**
+1. Download the `.pbix` file from the [reports](reports/) folder.
+2. Open it using **Power BI Desktop**.
+3. Interact with slicers, buttons, and visuals for deeper insights.
